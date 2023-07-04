@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+body{
+margin: 0;
+height: 100vh;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #12224a;
+  box-shadow:  3px 4px 3px ;
+}
+
+
+.contacts{
+   display:flex;
+  justify-content: space-around;
+height: 120px;
+padding: 30px 25px;
+}
+
+
+  .contact-card{
+    border:1px solid black;
+    width: 230px;
+    height: 230px;
+  
+
+  }
+
+
+  .dark li{
+    color:white;
+  }
+
+  .light li{
+    color:black;
+    padding: 10px;
+  }
+
+
+  .light h1{
+    color: black;
+  }
+  nav > h3 {
+    margin-right: auto;
+    color: #61DAFB;;
+  }
+
+  nav > img {
+    height: 30px;
+    margin-right: 7px;
+  }
+
+  main {
+   padding: 57px 25px;
+   color: black;
+   background-image: url(images/logo192.png);
+   background-repeat: no-repeat;
+   background-position-x: right;
+   background-position-y: 78%;
+  
+  }
+
+.light , main{
+  color: black;
+}
+
+.dark main{
+  color: white;
+}
+  .main-title{
+    margin: 0;
+    font-size: 39px;
+  }
+
+  .dark, li
+
+  main  > ul{
+    line-height: 2.2;
+
+  }
+
+  /*.toggler-light{
+    margin-right: 60px;
+    margin-bottom: 33px;
+  }
+
+ .toggler-dark{
+  margin-left: 10px;
+    background: transparent ;
+    background-size: 30px 30px;
+  width: 45px;
+  height: 45px;
+  filter: grayscale(100%);
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/*.toggler-dark:hover,
+.toggler-dark:focus {
+  filter: none;
+  background-color: black;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+#darkMode.clicked {
+  filter: none !important;
+  background-color: black;
+  background-size: 30px;
+}
+*/
+
+.light{
+  background: white;
+ 
+ 
+}
+
+
+.dark{
+  background-color: black;
+}
+
+
+.dark, main{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.switch{
+  transition: 0.7s ease;
+  margin-left: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+label{
+font-size: 14px;
+font-style: italic;
+margin-top: 20px;
 }
+
+/*.
+
+.dark, main {
+  color: white;
+}
+/*.switch{
+  margin-left: 90%;
+ position: relative;
+ bottom: 47px;
+ width: 100vw;
+ height: 100vw;
+ align-items: center;
+ color: black;
+
+}
+
+*/
+
+
+ 

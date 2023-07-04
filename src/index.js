@@ -1,17 +1,45 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './App.css';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <App />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//function App() {
+  //const date = new Date ()
+  //const hours = date.getHours() % 12
+//let timeofDay
+
+//if (hours < 12) {
+ // timeofDay = 'morning'
+//}
+
+//else if( hours >= 12) {
+  //timeofDay = 'afternoon'
+
+//}
+
+//else if (hours > 6) {
+  //timeofDay = 'Night'
+//}
+
+
+
+
+  //return (
+    //<h2>Good {timeofDay}!</h2>
+    //<h1> it is currently about {hours} o'clock</h1>
+ 
+//)
+//}
+
+
+//ReactDOM.render(<App />, document.getElementById("root"))
+
